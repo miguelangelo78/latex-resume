@@ -1,19 +1,18 @@
 \documentclass[11pt,a4paper]{moderncv}
-\moderncvstyle{casual}        % Style options: 'casual', 'classic', 'oldstyle', 'banking'
-\moderncvcolor{blue}           % Color options: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey', 'black'
-
-\usepackage[utf8]{inputenc}   % Character encoding
-\usepackage[scale=0.9]{geometry}  % Adjust the page margins
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.9]{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{tikz}
-\usepackage{sourcesanspro} % Use Source Sans Pro for a professional look
-\renewcommand{\familydefault}{\sfdefault} % Set sans-serif as default
-\usepackage{xcolor} % Add this line for custom colors
+\usepackage{sourcesanspro}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{xcolor}
 
 % Personal data
-\title{} % Suppress default title
-\address{Tha Yang District}{Phetchaburi, Thailand}{}
+\title{}
+\address{Phetchaburi City District}{Phetchaburi, Thailand}{}
 \phone[mobile]{+66~984~580~902}
 \email{santosmiguel25@gmail.com}
 \homepage{linkedin.com/in/miguelacs}
@@ -23,9 +22,6 @@
 \definecolor{mydarkblue}{RGB}{0,56,128}
 \definecolor{sectionblue}{RGB}{0,0,128}
 
-%----------------------------------------------------------------------------------
-%            Content
-%----------------------------------------------------------------------------------
 \begin{document}
 
 % Custom header: photo left, name/title, intro, and contacts right
@@ -41,11 +37,7 @@
 \begin{minipage}[c]{0.80\textwidth}
   \raggedright
   \textbf{\LARGE Miguel Santos | Senior Software Engineer}\\[0.3em]
-  Cloud-native software engineer with over 7 years of experience delivering scalable web platforms in AWS using TypeScript, Angular, and Node.js. Proven track record in building microservices, leading greenfield projects, and optimizing developer workflows with Docker and CI/CD. Passionate about clean architecture and user-centered design.\\[0.3em]
-
-  {\footnotesize
-    \textit{Seeking a senior software engineering role to build innovative, scalable solutions and contribute to impactful cloud-native projects in a collaborative environment.}
-  }\\[0.8em]
+  Cloud-native software engineer with over 7 years of experience delivering scalable web platforms in AWS using TypeScript, Angular, and Node.js. Proven track record in building microservices, leading greenfield projects, and optimizing developer workflows with Docker and CI/CD. Passionate about clean architecture and user-centered design, and seeking a senior engineering role to build scalable solutions in collaborative environments.\\[0.8em]
   {\footnotesize
     \includegraphics[height=1em]{images/icon-location.png}
     Phetchaburi City District, Thailand 
@@ -74,7 +66,7 @@
 \end{minipage}%
 \hspace{0.5em}%
 \begin{minipage}[t]{0.95\textwidth}
-  \textbf{Senior Software Developer} \,•\, {\color{mydarkblue}Hubexo}\\
+  \textbf{Senior Software Developer} \,\textbullet\, {\color{mydarkblue}Hubexo}\\
   {\footnotesize Jan 2022 -- Present}
   \begin{itemize}
     \item Develop responsive cloud-native Web Apps using TypeScript, Angular, Node.js, and Docker on AWS.
@@ -92,7 +84,7 @@
 \end{minipage}%
 \hspace{0.5em}%
 \begin{minipage}[t]{0.9\textwidth}
-  \textbf{Software Developer} \,•\, {\color{mydarkblue}Apak Group Limited}\\
+  \textbf{Software Developer} \,\textbullet\, {\color{mydarkblue}Apak Group Limited}\\
   {\footnotesize Apr 2020 -- Nov 2021}
   \begin{itemize}
     \item Implemented scalable backend microservices in AWS using TypeScript and Node.js.
@@ -109,7 +101,7 @@
 \end{minipage}%
 \hspace{0.5em}%
 \begin{minipage}[t]{0.9\textwidth}
-  \textbf{Graduate Software Analyst/Developer} \,•\, {\color{mydarkblue}Gamma}\\
+  \textbf{Graduate Software Analyst/Developer} \,\textbullet\, {\color{mydarkblue}Gamma}\\
   {\footnotesize Jul 2018 -- Apr 2020}
   \begin{itemize}
     \item Designed and built backend/frontend components using Java, SQL Server, and Apache Struts.
@@ -119,10 +111,8 @@
 \end{minipage}
 \vspace{0.5em}
 
-% Replace Education and Languages with a single row of minipages, each half the page width
 \begin{minipage}[t]{0.6\textwidth}
   \section{Education}
-  % Entry 1
   \begin{minipage}[t]{0.13\textwidth}
     \raggedleft
     \raisebox{-1.5em}{\includegraphics[height=2.5em]{images/icon-usw.png}}
@@ -155,10 +145,8 @@
 \cvitem{\textbf{Search \& AI:}}{OpenSearch, AI integration (LLMs, embeddings)}
 
 \section{Projects}
-{
-\cvitem{\textbf{Coinflake:}}{Financial investment tracking app for crypto, stocks, and commodities. Built with Next.js and PostgreSQL, featuring dynamic data visualizations via Lightweight Charts.}
-\cvitem{\textbf{Swapper:}}{Web app enabling Thai teachers to find swap opportunities for job relocation. Built with Next.js and Tailwind; authentication via NextAuth; deployed on Vercel. 50+ teachers registered. {\color{mydarkblue}\href{https://swapper-beta.vercel.app}{Website}}}
-\cvitem{\textbf{Structura:}}{Experimental meta programming language for structured AI prompts. {\color{mydarkblue}\href{https://github.com/miguelangelo78/structura}{GitHub}}}
-}
+\cvitem{\textbf{Coinflake:}}{Financial investment tracker for crypto, stocks, and commodities. Built with Next.js and PostgreSQL.}
+\cvitem{\textbf{Swapper:}}{Web app for Thai teachers to coordinate job swaps. Built with Next.js, Tailwind, and NextAuth. {\color{mydarkblue}\href{https://swapper-beta.vercel.app}{\texttt{swapper-beta.vercel.app}}}}
+\cvitem{\textbf{Structura:}}{Meta programming language for AI prompts. {\color{mydarkblue}\href{https://github.com/miguelangelo78/structura}{\texttt{github.com/miguelangelo78/structura}}}}
 
 \end{document}
